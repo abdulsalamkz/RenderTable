@@ -29,11 +29,9 @@ function renderTable(id, data) {
 async function getUsers() {
     const response = await fetch("./users.json");
     const users = await response.json();
-    return users
+    renderTable("body", users)
 }
 
-getUsers().then((users) => {
-    renderTable("body", users)
-})
+getUsers()
 
 
