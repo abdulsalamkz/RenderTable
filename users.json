@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Raza",
+    "age": 24,
+    "email": "ali.raza@example.com",
+    "city": "Karachi",
+    "isEmployed": true
+  },
+  {
+    "id": 2,
+    "name": "Zara Ahmed",
+    "age": 27,
+    "email": "zara.ahmed@example.com",
+    "city": "Lahore",
+    "isEmployed": false
+  },
+  {
+    "id": 3,
+    "name": "Bilal Khan",
+    "age": 30,
+    "email": "bilal.khan@example.com",
+    "city": "Islamabad",
+    "isEmployed": true
+  },
+  {
+    "id": 4,
+    "name": "Fatima Noor",
+    "age": 22,
+    "email": "fatima.noor@example.com",
+    "city": "Multan",
+    "isEmployed": true
+  },
+  {
+    "id": 5,
+    "name": "Saad Sheikh",
+    "age": 29,
+    "email": "saad.sheikh@example.com",
+    "city": "Faisalabad",
+    "isEmployed": false
+  },
+  {
+    "id": 6,
+    "name": "Hina Tariq",
+    "age": 26,
+    "email": "hina.tariq@example.com",
+    "city": "Hyderabad",
+    "isEmployed": true
+  },
+  {
+    "id": 7,
+    "name": "Usman Ali",
+    "age": 31,
+    "email": "usman.ali@example.com",
+    "city": "Quetta",
+    "isEmployed": false
+  },
+  {
+    "id": 8,
+    "name": "Nida Shah",
+    "age": 28,
+    "email": "nida.shah@example.com",
+    "city": "Peshawar",
+    "isEmployed": true
+  },
+  {
+    "id": 9,
+    "name": "Hamza Yousuf",
+    "age": 23,
+    "email": "hamza.yousuf@example.com",
+    "city": "Sialkot",
+    "isEmployed": true
+  },
+  {
+    "id": 10,
+    "name": "Sana Javed",
+    "age": 25,
+    "email": "sana.javed@example.com",
+    "city": "Bahawalpur",
+    "isEmployed": false
+  }
+]

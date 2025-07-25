@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #0f172a; /* dark navy blue */
+        height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    table {
+        background: #1e293b; 
+        border-collapse: collapse;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        overflow: hidden;
+        width: 90%;
+        max-width: 1000px;
+    }
+
+    th {
+        background: #3b82f6; 
+        color: #ffffff;
+        padding: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    td {
+        color: #f1f5f9; 
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #334155; 
+    }
+
+    tr:hover {
+        background-color: #475569; 
+        transition: background-color 0.3s ease;
+    }
+
+    th, td {
+        border: 1px solid #475569;
+        text-align: center;
+    }
+</style>
+
+
+</head>
+
+<body id="body">
+    <script src="app.js"></script>
+</body>
+
+</html>
