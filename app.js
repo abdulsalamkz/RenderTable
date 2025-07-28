@@ -11,7 +11,7 @@ function renderTable(id, data) {
     thead.appendChild(tr);
     for (const key in data[0]) {
         const th = document.createElement("th");
-        th.innerHTML = key;
+        th.innerText = key;
         tr.appendChild(th);
     }
     table.appendChild(tbody)
@@ -20,7 +20,7 @@ function renderTable(id, data) {
         tbody.appendChild(tr);
         for (const key in element) {
             const td = document.createElement("td");
-            td.innerHTML = element[key];
+            td.innerText = element[key];
             tr.appendChild(td);
         }
     });
